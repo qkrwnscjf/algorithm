@@ -1,0 +1,6 @@
+-- 코드를 작성해주세요
+-- ROUND: 소수점
+-- IFNULL : 컬럼 내부 NULL값(LENG)을 10으로 치환
+
+SELECT ROUND(AVG(IFNULL(LENGTH, 10)), 2) AS AVERAGE_LENGTH 
+FROM FISH_INFO
